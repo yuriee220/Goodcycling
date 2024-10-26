@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>test</title>
+     <meta charset="utf-8">
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="gs-wrap">
+        <header>
+            <!-- PC用ナビゲーション -->
+            <nav id="nav-pc">
+                <div class="nav-title">MENU</div>
+                <ul class="nav-main">
+                    <li>
+                        <a href="index.html">
+                            <p class="en">HOME</p>
+                            <p class="ja">ホーム</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#concept">
+                            <p class="en">CONCEPT</p>
+                            <p class="ja">コンセプト</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#features">
+                            <p class="en">FEATURES</p>
+                            <p class="ja">サービスの特徴</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#howtouse">
+                            <p class="en">HOW TO USE</p>
+                            <p class="ja">利用方法</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#area">
+                            <p class="en">AREA</p>
+                            <p class="ja">対応地域</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#faq">
+                            <p class="en">FAQ</p>
+                            <p class="ja">よくある質問</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#reviews">
+                            <p class="en">CUSTOMER REVIEWS</p>
+                            <p class="ja">お客様の声</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#cautions">
+                            <p class="en">CAUTIONS</p>
+                            <p class="ja">注意事項</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- スマホ用メニューボタン -->
+            <img id="menu-sp" src="images/メニューアイコン.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+            <!-- スマホ用ナビゲーション -->
+            <nav id="nav-sp">
+                <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="images/アプリアイコン.png" alt="トップページに戻る"></a>
+                <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+                <a class="menu" href="index.html#features" onclick="document.getElementById('nav-sp').style.display = 'none'">FEATURES</a>
+                <a class="menu" href="index.html#howtouse" onclick="document.getElementById('nav-sp').style.display = 'none'">HOW TO USE</a>
+                <a class="menu" href="index.html#area" onclick="document.getElementById('nav-sp').style.display = 'none'">AREA</a>
+                <a class="menu" href="index.html#faq" onclick="document.getElementById('nav-sp').style.display = 'none'">FAQ</a>
+                <a class="menu" href="index.html#reviews" onclick="document.getElementById('nav-sp').style.display = 'none'">CUSTOMER REVIEWS</a>
+                <a class="menu" href="index.html#cautions" onclick="document.getElementById('nav-sp').style.display = 'none'">CAUTIONS</a>
+                <div id="sns">
+                    <a href="https://www.instagram.com/"><img src="images/logo-Instagram_Glyph_Gradient.png" alt="Instgramアイコン"></a>
+                    <a href="https://x.com/?lang=ja"><img src="images/logo-X.png" alt="Xアイコン"></a>
+                    <a href="https://www.facebook.com/"><img src="images/logo-Facebook_Primary.png" alt="Facebookアイコン"></a>
+                </div>
+            </nav>
+        </header>
+    </div>
+        <main id="main-contents" role="main">
+            <article>
+                <section id="main-visual">
+                    <div class="main-visual">
+                        <img class="main-img" src="images/blubel-PK5y56IML8M-unsplash2 - コピー1.png" alt="メイン自転車と女性">
+                    </div>
+                    <div class="main-text">
+                        <img src="images/ダウンロード.png" alt="横長ロゴ">
+                        <p class="text-en">Smart, free,<br><span class="text-and">and</span><br> just your style</p>
+                        <p class="text-ja">毎日をもっとアクティブに</p>
+                    </div>
+                </section>
+                <section class="dl-button-1">
+                    <div class="dl-button" >
+                         <p>ダウンロードはこちらから▽</p>
+                      <div class="button-img">
+                         <a href="https://www.apple.com/jp/app-store/">
+                             <img src="images/Download_on_the_App_Store_Badge_JP_blk_100317.png" alt="appstoreバッジ">
+                         </a>
+                         <a href="https://play.google.com/store/apps?hl=ja">
+                             <img src="images/GetItOnGooglePlay_Badge_Web_color_Japanese.png" alt="googleplayバッジ">
+                         </a>
+                      </div>
+                    </div>                   
+                </section>
+                <section id="concept">
+                    <div>
+                        <img src="images/concept.jpg" alt="自転車に乗った女性">
+                    </div>
+                    <div class="concept-explain">
+                        <h2>CONCEPT</h2>
+                        <p>
+                          「忙しい都市生活をもっと自由に。<span class="marker">新しい都市型シェアサイクルで</span>、<br>
+                           好きな時に、好きな場所へ。
+                        </p>
+                        <p>    
+                           交通渋滞も気にせず、スマートに移動。
+                        </p>  
+                        <p>  
+                           <span class="marker">手軽に借りて、スムーズに返却</span>。<br>
+                           あなたの街をもっと身近に感じられる、<br>
+                           新しい移動手段です。」
+                        </p>
+                    </div>
+                </section>
+                <section id="features">
+                    <h2>FEATURES</h2>
+                    <div class="features-1">
+                        <div class="icon">
+                          <img src="images/feature-icon.png" alt="指さしアイコン">
+                        </div>  
+                        <h3><span class="marker">特徴1、便利さ</span></h3>
+                        <p>
+                           <span class="marker">低価格で利用でき、時間ごとの課金</span>により、<br>
+                           1分ごとの料金で決済されますので、<br>
+                           無駄なく利用できます。
+                        </p>
+                    </div>
+                    <div class="features"></div>
+                        <div class="icon">
+                          <img src="images/feature-icon.png" alt="指さしアイコン">
+                        </div>  
+                        <h3><span class="marker">特徴2、便利さ</span></h3>
+                        <p>
+                            <span class="marker">主要駅の徒歩1分圏内にサイクルステーションが設置</span>されており、<br>
+                           通勤やちょっとした移動に最適です。<br>
+                           観光や日常のちょっとした移動まで、<br>
+                           幅広いシーンで活用できるこのサービスは、<br>
+                           都市での移動をよりスマートで快適にします。
+                        </p>
+                    </div>
+                </section>
+                <section class="dl-button-1">
+                    <div class="dl-button" >
+                         <p>ダウンロードはこちらから▽</p>
+                      <div class="button-img">
+                         <a href="https://www.apple.com/jp/app-store/">
+                             <img src="images/Download_on_the_App_Store_Badge_JP_blk_100317.png" alt="appstoreバッジ">
+                         </a>
+                         <a href="https://play.google.com/store/apps?hl=ja">
+                             <img src="images/GetItOnGooglePlay_Badge_Web_color_Japanese.png" alt="googleplayバッジ">
+                         </a>
+                      </div>
+                    </div>                   
+                </section>
+                <section id="howtouse">
+                    <h2>HOW TO USE</h2>
+                    <div>
+                        <div class="howto-img">
+                            <img src="images/howto1.jpg" alt="アプリダウンロード">
+                        </div>
+                        <div class="howto-explain">
+                            <h3>1.アプリをダウンロードし、<br>アカウント登録</h3>
+                            <p>まずはアプリをダウンロードし、<br>
+                                メールアドレスや電話番号でアカウントを登録します。
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="howto-img">
+                            <img src="images/howto2.jpg" alt="サイクルステーション">
+                        </div>
+                        <div class="howto-explain">
+                            <h3>2. 近くのサイクルステーションを検索</h3>
+                            <p>アプリの地図機能を使って、 <br>最寄りのサイクルステーションを探し、<br>
+                                利用可能な自転車を確認します。
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="howto-img">
+                            <img src="images/howto3.jpg" alt="QRコードをスキャン">
+                        </div>
+                        <div class="howto-explain">
+                            <h3>3. QRコードをスキャンして自転車を解錠</h3>
+                            <p>指定された自転車のQRコードをアプリでスキャンし、<br>
+                                ロックを解除して出発します。
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="howto-img">
+                            <img src="images/howto4.jpg" alt="返却手続きをする女性">
+                        </div>
+                        <div class="howto-explain">
+                            <h3>4. 返却ステーションで自転車を返却</h3>
+                            <p>目的地の返却ステーションに到着したら、<br>
+                                自転車を停めてロックを施し、<br>
+                                アプリで返却手続きを完了します。
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="howtopay">
+                    <h2>HOW TO PAY</h2>  
+                    <div class="pay-1">
+                        <div class="icon">
+                          <img src="images/スマホ決済のアイコン2 (1).png" alt="電子マネーアイコン">
+                        </div>  
+                        <p>支払方法1</p>
+                        <p><span  class="marker">各種電子マネー</span></p>
+                   </div> 
+                   <div>
+                       <div class="icon">
+                         <img src="images/支払いのアイコン3 (1).png" alt="クレジットカードアイコン">
+                       </div>
+                       <p>支払方法2</p>
+                       <p><span  class="marker">クレジットカード</span></p>
+                   </div>        
+                </section>
+                <section id="area">
+                    <h2>AREA</h2>
+                    <div id="area-text">
+                      <p>各区内の主要駅や観光名所の近くにサイクルステーションを設置しています。<br>
+                          今後もステーション数、エリア拡大予定！<br>
+                          アプリからステーション設置候補地の提案も可能！
+                      </p>
+                    </div>
+                    <div class="area-tokyo">
+                        <h3><span class="marker-area">TOKYO</span></h3>
+                        <div class="mar-wrap">
+                          <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9166.669910305242!2d139.76921759570646!3d35.67928627176903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1729743835778!5m2!1sja!2sjp" 
+                              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="area-osaka">
+                        <h3><span class="marker-area">OSAKA</span></h3>
+                        <div class="mar-wrap">
+                          <div class="map">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6560.289503106387!2d135.50264107811327!3d34.70152878451339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1729743284640!5m2!1sja!2sjp" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                              </iframe>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="dl-button-2">
+                    <div class="dl-button" >
+                         <p>ダウンロードはこちらから▽</p>
+                      <div class="button-img">
+                         <a href="https://www.apple.com/jp/app-store/">
+                             <img src="images/Download_on_the_App_Store_Badge_JP_blk_100317.png" alt="appstoreバッジ">
+                         </a>
+                         <a href="https://play.google.com/store/apps?hl=ja">
+                             <img src="images/GetItOnGooglePlay_Badge_Web_color_Japanese.png" alt="googleplayバッジ">
+                         </a>
+                      </div>
+                    </div>                   
+                </section>
+                <section id="faq">
+                    <div class="faq-bg">
+                    <h2>FAQ</h2>
+                    <div>
+                        <dl class="Qa-Box">
+                            <div class="Qa">
+                                <dt>
+                                    <p>シェアサイクルの利用方法を教えてください。</p>
+                                </dt>
+                                <dd>
+                                    <p>アプリをダウンロードし、登録後、地図から最寄りのサイクルステーションを探して自転車を予約します。
+                                       予約後、自転車に表示されているQRコードをアプリでスキャンしてロックを解除します。
+                                       利用後は、指定されたサイクルステーションに返却し、アプリで返却手続きを行ってください。
+                                    </p>
+                                </dd>
+                            </div>
+                            <div class="Qa">
+                                <dt>
+                                    <p>料金体系はどのようになっていますか？</p>
+                                </dt>
+                                 <dd>
+                                    <p>料金は利用時間に応じて計算されます。基本料金に加え、利用時間に応じた追加料金が発生します。
+                                       詳細はアプリインストール後、料金表をご確認ください。
+                                    </p>
+                                </dd>
+                            </div>
+                            <div class="Qa">
+                                <dt>
+                                    <p>どこで自転車を借りたり返却したりできますか？</p>
+                                </dt>
+                                <dd>
+                                    <p>サイクルステーションは区内各地に設置されています。
+                                       アプリ内の地図から最寄りのサイクルステーションを確認し、自転車を借りたり返却したりできます。
+                                    </p>
+                                </dd>
+                            </div>
+                            <div class="Qa">
+                                <dt>
+                                    <p>自転車を借りた後、別の場所で返却できますか？</p>
+                                </dt>
+                                <dd>
+                                    <p>はい、借りた場所とは異なるサイクルステーションで返却可能です。
+                                       ただし、返却可能なステーションはアプリで確認してください。
+                                    </p>
+                                </dd>
+                            </div>
+                            <div class="Qa">
+                                <dt>
+                                    <p>自転車が故障した場合はどうすればいいですか？</p>
+                                </dt>
+                                <dd>
+                                    <p>自転車の故障やトラブルが発生した場合、すぐにアプリ内のサポート機能を利用してご報告ください。
+                                       最寄りのサイクルステーションで別の自転車に交換することも可能です。
+                                    </p>
+                                </dd>
+                            </div>
+                            <div class="Qa">
+                                <dt>
+                                    <p>夜間でも利用できますか？</p>
+                                </dt>
+                                <dd>
+                                    <p>シェアサイクルは24時間ご利用いただけます。
+                                       夜間でも利用可能ですが、暗い場所での走行には十分ご注意ください。
+                                    </p>
+                                </dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+                </section>
+                <section id="reviews">
+                    <div class="reviews-bg">
+                        <h2>CUSTOMER REVIEWS</h2>
+                        <div class="review">
+                            <div class="icon">
+                                <img src="images/女性のシルエットアイコン-1-e1729824617290.png" alt="女性のシルエットアイコン">
+                            </div>
+                            <div class="review-text">
+                                <p class="name"><span class="marker">Aさん&nbsp;28歳、女性、会社員</span></p>
+                                <p>「毎日の通勤でシェアサイクルを利用しています。
+                                    駅からオフィスまでのちょっとした距離がいつも悩みだったのですが、
+                                    シェアサイクルのおかげで時間を節約でき、運動にもなっています。
+                                    自転車も清潔で、返却ステーションも多くて便利です。」
+                                </p>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="icon">
+                                <img src="images/サラリーマン-1-e1729824675169.png" alt=男性のシルエットアイコン">
+                            </div>
+                            <div class="review-text">
+                                <p class="name"><span class="marker">Bさん&nbsp;35歳、男性、フリーランス</span></p>
+                                <p>「打ち合わせのために移動することが多いので、シェアサイクルは本当に助かっています。
+                                    渋滞も気にせず、気軽に街中を移動できるのが魅力ですね。
+                                    環境にも優しいので、エコ意識が高い僕にピッタリです！」
+                                </p>
+                            </div>
+                        </div>
+                        <div class="review-3">
+                            <div class="icon">
+                                <img src="images/女性のシルエットアイコン-1-e1729824617290.png" alt="女性のシルエットアイコン">
+                            </div>
+                            <div class="review-text">
+                                <p class="name"><span class="marker">Cさん&nbsp;60歳、女性、主婦</span></p>
+                                <p>「週末に夫と一緒に街を散策するのにシェアサイクルを使っています。
+                                    車を使わずに運動もできて一石二鳥。操作も簡単で、年齢問わず使えるところが嬉しいです。
+                                    特に電動アシスト自転車は坂道でも楽々でした。」
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="dl-button-2">
+                    <div class="dl-button" >
+                         <p>ダウンロードはこちらから▽</p>
+                      <div class="button-img">
+                         <a href="https://www.apple.com/jp/app-store/">
+                             <img src="images/Download_on_the_App_Store_Badge_JP_blk_100317.png" alt="appstoreバッジ">
+                         </a>
+                         <a href="https://play.google.com/store/apps?hl=ja">
+                             <img src="images/GetItOnGooglePlay_Badge_Web_color_Japanese.png" alt="googleplayバッジ">
+                         </a>
+                      </div>
+                    </div>                   
+                </section>
+                <section id="cautions">
+                    <div class="cautions-bg">
+                        <h2>CAUTIONS</h2>
+                        <div class="scroll">
+                            <div>
+                               <p>1.交通ルールの遵守</p>
+                               <ul>
+                                  <li><span class="span-caution">・信号や標識を守る</span>：特に交差点や横断歩道では、必ず信号や標識に従いましょう。</li>
+                                  <li><span class="span-caution">・歩行者優先</span>：歩行者と同じ歩道を通る際は、歩行者を優先し、スピードを抑えてください。</li>
+                                  <li><span class="span-caution">・一方通行に注意</span>：シェアサイクル利用時も、車両としてのルールに従い、一方通行の道路に注意しましょう。  </li>
+                               </ul>
+                            </div>
+                            <div>
+                                <p>2.安全装備の確認</p>
+                                <ul>
+                                   <li><span class="span-caution">・ヘルメットの着用</span>：義務化されている場合もありますが、自発的にヘルメットを着用することで頭部のケガを防げます。</li>
+                                   <li><span class="span-caution">・ライトと反射材の使用</span>：夜間や視界が悪い場合は、前照灯や後部ライト、反射材を利用して自分の存在を他者に知らせましょう。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>3.車両の点検</p>
+                                <ul>
+                                   <li><span class="span-caution">・タイヤの空気圧</span>：出発前にタイヤの空気圧を確認し、必要であれば調整してください。</li>
+                                   <li><span class="span-caution">・ブレーキの効き具合</span>：ブレーキが正常に作動するかどうかを確認し、安全性を確保しましょう。</li>
+                                   <li><span class="span-caution">・ハンドルやサドルの調整</span>：乗り心地に影響するため、自分の体に合った位置に調整してください。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>4.適切なスピードでの運転</p>
+                                <ul>
+                                   <li><span class="span-caution">・過度なスピードを出さない</span>：特に人通りの多い場所や視界が悪い場所では、スピードを控えましょう。</li>
+                                   <li><span class="span-caution">・急ブレーキに注意</span>：急なブレーキは転倒の原因になります。周囲の状況を見極め、余裕を持った運転を心掛けてください。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>5.周囲の状況に注意</p>
+                                <ul>
+                                   <li><span class="span-caution">・車両の死角に注意</span>：自動車やトラックの死角に入らないように注意し、巻き込み事故を防ぎましょう。</li>
+                                   <li><span class="span-caution">・左右の確認</span>：曲がる際や道路を横断する際は、必ず左右を確認し、他の車両がいないか確かめましょう。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>6.適切な駐輪</p>
+                                <ul>
+                                   <li><span class="span-caution">・駐輪禁止エリアの確認</span>：駐輪は、施設や道路の指定された場所に行う必要があります。公共の場での無断駐輪は迷惑行為となるため注意が必要です。</li>
+                                   <li><span class="span-caution">・自転車のロック</span>：使用後は必ずロックをかけ、盗難を防ぎましょう。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>7.事故が発生した場合の対応</p>
+                                <ul>
+                                   <li><span class="span-caution">・警察への連絡</span>：事故に遭遇した場合、速やかに警察に連絡し、事故の状況を報告してください。</li>
+                                   <li><span class="span-caution">・運営会社への連絡</span>：事故の詳細を運営会社に報告し、指示に従って対応を行いましょう。</li>
+                                   <li><span class="span-caution">・相手方の確認</span>：事故の相手がいる場合は、連絡先を交換し、保険の手続きを行う準備をしてください。</li>
+                                </ul>
+                             </div>
+                             <div>
+                                <p>8.保険加入の確認</p>
+                                <ul>
+                                   <li><span class="span-caution">・賠償責任保険</span>：シェアサイクルの利用者は、万が一の事故に備えて賠償責任保険に加入しておくことが推奨されます。</li>
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <footer id="footer">
+                <div class="footer-bg">
+                    <div class="footer-dl-button" >
+                        <p>ダウンロードはこちらから▽</p>
+                     <div class="button-img">
+                        <a href="https://www.apple.com/jp/app-store/">
+                            <img src="images/Download_on_the_App_Store_Badge_JP_blk_100317.png" alt="appstoreバッジ">
+                        </a>
+                        <a href="https://play.google.com/store/apps?hl=ja">
+                            <img src="images/GetItOnGooglePlay_Badge_Web_color_Japanese.png" alt="googleplayバッジ">
+                        </a>
+                     </div>
+                     <div class="footer-sns">
+                        <a href=""><img src="images/logo-Instagram_Glyph_Gradient.png" alt="Instgramアイコン"></a>
+                        <a href=""><img src="images/logo-X.png" alt="Xアイコン"></a>
+                        <a href=""><img src="images/logo-Facebook_Primary.png" alt="Facebookアイコン"></a>
+                     </div>
+                </div>               
+            </footer> 
+            <div id="copyright">
+                <p class="copyright">Copyright&copy;Good Cycling All Rights Reserved. </p>
+            </div>
+                      
+        </main>
+  </body>

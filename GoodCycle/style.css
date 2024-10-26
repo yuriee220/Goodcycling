@@ -1,0 +1,643 @@
+body * {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+    font-size: 100%;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+body {
+    background-image: url('images/背景.png');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+body {
+    color: #191919;
+    font-family: "Noto Sans JP", "游ゴシック Mediu", YuGothic, YuGothicM, "Helvetica Neue", "Helvetica", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Sans", ‘メイリオ’, meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: .06em;
+    -webkit-font-feature-settings: "palt";
+    font-feature-settings: "palt";
+    position: relative;
+    margin: 0;
+}
+
+.gs-wrap {
+    width: 100%;
+    position: relative;
+}
+
+/* ヘッダー */
+#logo img {
+    max-width: 200px;
+    position: fixed;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    pointer-events: none;
+}
+
+#nav-pc {
+    pointer-events: all;
+    position: fixed;
+    bottom: 40px;
+    left: calc((100vw - 390px) / 2 + 390px + 5.29vw);
+}
+
+.nav-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-main > li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.nav-main > li a {
+    color: #191919;
+    font-size: .9375rem;
+    position: relative;
+    font-weight: 700;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+    color: #cfb8f6;
+    transition: all .3s;
+}
+
+.nav-main > li .en {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.nav-main > li .ja {
+    font-size: 12px;
+}
+
+.nav-main > li a:hover {
+    color: #337ab7;
+}
+
+/* メインコンテンツ */
+#main-contents {
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 64px rgba(25, 25, 25, .15);
+    position: relative;
+    top: -60px;
+}
+.main-img {
+    width: 100%;
+    padding: 0 5px 0 5px;
+}
+
+.main-visual {
+    position: relative;
+}
+
+.main-text img {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.text-and {
+    font-size: 24px;
+}
+
+.text-en {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.text-ja {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* ダウンロードボタン */
+.dl-button-1 {
+    background-color: #f3f3f3;
+    padding: 0 10px 30px 10px;
+}
+
+.dl-button-2 {
+    background-color: #e4eeff;
+    padding: 0 10px 20px 10px;
+}
+
+.dl-button {
+    background: linear-gradient(135deg, rgba(0, 208, 132, 1) 0%, rgba(6, 147, 227, 1) 100%);
+    /* margin: 0 10px 40px 10px; */
+    padding: 20px;
+}
+
+.dl-button > p {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.button-img {
+    text-align: center;
+}
+
+/* 見出し */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2::first-letter {
+    font-size: 50px;
+    color: #337ab7;
+}
+
+/* 青いマーカー */
+.marker {
+    background: linear-gradient(transparent 60%, rgba(142, 209, 252, 0.7) 0);
+    font-weight: bold;
+}
+
+/* コンセプト */
+#concept {
+    background-color: #f3f3f3;
+}
+
+#concept img {
+    width: 95%;
+    margin: 0 10px;
+}
+
+.concept-explain {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 10px 40px 10px;
+}
+
+#concept p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* 見出しh3 */
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* 特徴 */
+#features {
+    background-color: #fff;
+    padding: 20px 30px 40px 20px;
+    margin: 10px 10px 20px 10px;
+}
+
+.icon {
+    text-align: center;
+}
+
+#features p {
+    text-align: center;
+    line-height: 2;
+}
+
+.features-1 {
+    margin-bottom: 30px;
+}
+
+/* 利用方法 */
+#howtouse {
+    background-color: #e4eeff;
+}
+
+#howtouse img {
+    width: 95%;
+    margin: 0 10px;
+}
+
+.howto-explain {
+    background-color: #ffffffe0;
+    padding: 40px;
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 10px;
+    top: -50px;
+    width: 90%;
+}
+
+.howto-explain h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.howto-explain p {
+    text-align: center;
+}
+
+/* 支払方法 */
+#howtopay {
+    background-color: #fff;
+    margin: 0 10px 40px 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#howtopay h2 {
+    margin-bottom: 0;
+}
+
+#howtopay img {
+    width: 250px;
+    height: 250px;
+}
+
+#howtopay p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pay-1 {
+    margin-bottom: 20px;
+}
+
+/* 対応地域 */
+#area {
+    background-color: #e4eeff;
+    padding: 10px 10px 30px 10px;
+}
+
+#area-text {
+    padding: 0 15px 0 15px;
+    margin-bottom: 20px;
+}
+
+#area-text p {
+    text-align: center;
+}
+
+.area-tokyo {
+    margin-bottom: 20px;
+}
+
+/* Google Mapを囲う要素 */
+.map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* 比率を16:9に固定 */
+}
+
+/* Google Mapのiframe */
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 10px; */
+}
+
+/* 横幅を指定するための要素 */
+.map-wrap {
+    max-width:40%; /* ここに横幅を指定 */
+}
+
+.marker-area {
+    background: linear-gradient(transparent 60%, rgba(255, 253, 107, 0.7) 0);
+}
+
+/* FAQ */
+#faq {
+    background-image: url('images/青い壁と自転車.png');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    position: relative;
+    height: 100%;
+    padding: 20px 10px 30px 10px;
+}
+
+.faq {
+    padding: 0 20px;
+}
+
+.faq-bg {
+    background-color: rgba(255, 255, 255, 0.65); 
+}
+
+.Qa-Box {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.Qa-Box .Qa {
+    padding: 20px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+  
+.Qa-Box .Qa dt,
+.Qa-Box .Qa dd {
+    display: flex;
+    align-items: baseline;
+    margin: 15px 0;
+}
+  
+.Qa-Box .Qa dt p {
+    margin: 0;
+    padding-left: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+  
+.Qa-Box .Qa dd p {
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+}
+  
+.Qa-Box .Qa:last-of-type {
+    border-bottom: none;
+}
+  
+.Qa-Box .Qa dt::before {
+    content: "Q";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #6699b7;
+    width: 2em;
+    height: 2em; 
+}
+  
+.Qa-Box .Qa dd::before {
+    content: "A";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #d65556;
+    width: 2em;
+    height: 2em;
+}
+
+/* お客様の声 */
+#reviews {
+    background-color: #e4eeff;
+    padding: 10px;
+}
+
+.reviews-bg {
+    background-color: #fff;
+}
+
+.reviews-bg > h2 {
+    line-height: 1.1;
+    padding-top: 15px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review-3 {
+    margin-bottom: 10px;
+}
+
+.review-text {
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 注意事項 */
+#cautions {
+    background-color: #e4eeff;
+    padding: 20px 10px 40px 10px;
+}
+
+.cautions-bg {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.scroll{
+    overflow: auto;
+    height: 500px;
+    width: 95%;
+    margin: 0 10px;
+}
+
+.scroll p {
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+    background: linear-gradient(transparent 60%, rgba(142, 209, 252, 0.7) 0);
+}
+
+.scroll li {
+    font-size: 14px
+}
+
+.scroll div {
+    margin-bottom: 10px;
+}
+
+.span-caution {
+    font-weight: bold;
+}
+
+/* フッター */
+#footer {
+    background-image: url('images/案内板.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    position: relative;
+    height: 100%;
+    padding: 30px 10px 30px 10px;
+}
+
+.footer-bg {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px 0 30px 0;
+}
+
+.footer-dl-button {
+    /* background: linear-gradient(135deg, rgba(0, 208, 132, 1) 0%, rgba(6, 147, 227, 1) 100%); */
+    padding: 20px;
+}
+
+.footer-dl-button > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer-sns {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-sns img {
+    margin-left: 20px;
+}
+
+#copyright {
+    background-color: #e4eeff;
+    padding-top: 10px
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    padding: 30px 0 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+    #menu-sp {
+        display: none;
+    }
+
+    #nav-sp {
+        display: none;
+    }
+}
+
+/*======================
+  スマートフォン用のスタイル
+=======================*/
+@media screen and (max-width: 767px) {
+    body {
+        min-width: 375px;
+        margin: 0;
+    }
+
+    #logo {
+       float: left;
+    }
+    
+    /* PC用ナビゲーション非表示 */
+    #nav-pc {
+        display: none;
+    }
+    
+    /* ハンバーガーメニュー */
+    #menu-sp {
+        float: right;
+        padding: 0;
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: 90;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* スマホ用ナビゲーションの表示切替 */
+    /* 初期状態、レイアウトと非表示設定 */
+    #nav-sp {
+        background-color: #337ab7;
+        position: absolute;
+        left: 0;
+        top: 0;
+        /* height: 100%; */
+        width: 100%;
+        display: none;
+        z-index: 100;
+    }
+
+    #close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #logo-sp {
+        margin: 30px 0 30px 20px;
+    }
+
+    #logo-sp img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #nav-sp > a {
+        display: block;
+        color: #fff;
+    }
+
+    #nav-sp > a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    #nav-sp > .menu {
+        text-decoration: none;
+        display: block;
+        margin: 0 20px 0 20px;
+        height: 44px;
+        font-size: 16px;
+        background-image: url("images/arrow.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    #sns {
+       margin: 30px;
+    }
+
+    #sns > a {
+        margin-right: 30px;
+    }
+
+}
